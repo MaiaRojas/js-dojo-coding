@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+  <div class="nav bg-charcoal">
+      <h1 class="nav-title">Dojonary</h1>
+      <input type="text" name="search" placeholder="Search" class="input-nav">
+      <button 
+        class="btn bg-blue text-white" id="login" onclick="logout()">Login</button>
+  </div>
+  <div class="container">
+    <div class="col-1">
+      <div class="card">
+        <div class="card-title">
+          <h2>ninja</h2>
+          <h5><em>noum<em></ph5>
+          <p>Plural: <em>ninjas</em></p>
+          <button class="btn bg-yellow" onclick='showMessage()'>13 likes</button>
+        </div>
+        <div>
+          <p class="textSemiBold ">A practitioner skilled in the <a href=""> Japanese </a> art of <a href="">ninjutsu</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h2>ninja</h2>
+          <h5><em>noum<em></ph5>
+          <p>Plural: <em>ninjas</em></p>
+          <button class="btn bg-yellow" onclick='showMessage()'>7 likes</button>
+        </div>
+        <div>
+          <p class="textSemiBold ">A <a href="">programmer</a> who breaks down problems with<a href="">zen</a>-like focus</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="border">
+        <h4>Dojonary is defined by <strong>YOU</strong></h4>
+        <button class="btn bg-green" onclick="hideBtn()" id='addBtn'>Add Definition</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
