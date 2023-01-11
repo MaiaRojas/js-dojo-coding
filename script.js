@@ -5,5 +5,6 @@ function play(element) {
 }
   
 function pause(element) {
-  myVideo.pause() 
+  myVideo.pause();
+  myVideo.currentTime = 0;
 }
