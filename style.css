@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  display: inline-block;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+p, h4 {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+
+.home {
+  display: flex;
+  width: 550px;
+}
+.profile {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  width: 400px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+button {
+  background-color: yellow;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+  padding: 2px 20px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+.text-center {
+ text-align: center;
+}
+
+.profile > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

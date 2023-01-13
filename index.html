@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+  <script src="app.js"></script>
+  <title>I like</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="bg-black"><h2 class="text-white">Network</h3></div>
+    <h2 class="text-center">Your Feed</h2>
+  </div>
+
+  <section class="home">
+    <div>
+      <div class="profile">
+        <img src="https://user-images.githubusercontent.com/25912510/210279406-102692c4-33f5-40d2-aa6e-a97b876a0522.png" alt="avatar" />
+        <a href="">Add on avatar</a>
+        <h4>James Doe</h4>
+      </div>
+    </div>
+    <div class="list-card">
+      <div class="card">
+        <div class="title">
+          <h4>Neil M</h4>
+          <div><p id="like-1">0</p><p>likes(s)</p></div>
+          <button onclick="pushLike('like-1')">Like</button>
+        </div>
+          <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+      </div>
+      <div class="card">
+        <div class="title">
+          <h4> Some User</h4>
+          <div><p id="like-2">0</p><p>likes(s)</p></div>
+          <button onclick="pushLike('like-2')">Like</button>
+        </div>
+        <p>Just finishet my <a href="">next comic</a>, check it out.</p>
+      </div>
+      <div class="card">
+        <div class="title">
+          <h4> Some User</h4>
+          <div><p id="like-3">0</p><p>likes(s)</p></div>
+          <button onclick="pushLike('like-3')">Like</button>
+        </div>
+        <p>I can't stop  listening to the <a href="">new album</a>Who else is linking it?</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
