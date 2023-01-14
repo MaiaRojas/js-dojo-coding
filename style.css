@@ -1,0 +1,167 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  color: white;
+  align-items: center;
+  height: 60px;
+  display: flex;
+  padding: 10px 60px;
+  justify-content: center;
+}
+
+.col-1 {
+  margin-right: 20px;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 5px;
+}
+h1 {
+  font-weight: bold;
+}
+
+.active {
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #8a8a8a;
+}
+
+p {
+  margin: 5px 0px
+}
+
+a {
+  margin-left: 5px;
+}
+
+.btn {
+  background-color: darkcyan;
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: 600;
+  box-shadow: 3px 3px black;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  padding: 30px 60px;
+  justify-content: center;
+}
+.card > h2 {
+  margin-top: 30px;
+}
+
+.card-profile {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.request-invite {
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: #19a2b8;
+  height: 60px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  padding: 5px;
+  background-color: gray;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mX-5 {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.my-5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.bg-charcoal {
+  background-color: #333333;
+  height: 50px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: gray;
+}
+.avatar-invite {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.avatar-invite > p {
+  margin-left: 3px;
+  margin-right: 10px;
+}
+
+.border-custom {
+  border: 3px gray;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+.circular {
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+  padding: 5px 8px;
+}
+.user {
+  margin-left: 10px;
+}
+
+.width650 {
+  width: 650px;
+}
