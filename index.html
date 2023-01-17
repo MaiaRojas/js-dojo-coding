@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>DojoWeather</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>DojoWeather</h1>
+      <div class="flex">
+        <h4 onclick="loadingTemp(this)">Burbank</h4>
+        <h4 onclick="loadingTemp(this)"">Chicago</h4>
+        <h4 onclick="loadingTemp(this)"">Dallas</h4>
+      </div>
+    </div>
+    <section class="container">
+      <div class="flex content-between align-center">
+        <h2 id="city">San Jose</h2>
+        <div class="flex">
+          <p>show temperature in: </p>
+          <select name="temperature" id="temperature" onchange="changeTemp()">
+            <option value="C">°C</option>
+            <option value="F">°F</option>
+          </select>
+        </div>
+      </div>
+      <hr/>
+      <div class="weathers flex">
+        <div class="weather">
+          <h5>Today</h5>
+            <img
+              src="https://user-images.githubusercontent.com/25912510/212768997-0a0a8ddd-a61c-475b-8db2-7291664b2b62.png"
+              alt="some rain"
+              width="200"
+              height="200"
+              class="weather-image"
+            />
+          <p class="text-bold">Some rain</p>
+          <div class="flex content-between mt-10">
+            <p class="text-red text-weather" id="temp-7">24°</p>
+            <p class="text-blue text-weather" id="temp-8">18°</p>
+          </div>
+        </div>
+        <div class="weather">
+          <h5>Tomorrow</h5>
+            <img
+              src="https://user-images.githubusercontent.com/25912510/212768999-fbef8a98-f013-40b0-ab6a-9037d08063b9.png"
+              alt="some sun"
+              width="200"
+              height="200"
+              class="weather-image"
+            />
+          <p class="text-bold">Some sun</p>
+          <div class="flex content-between mt-10">
+            <p class="text-red text-weather" id="temp-1">27°</p>
+            <p class="text-blue text-weather" id="temp-2">19°</p>
+          </div>
+        </div>
+        <div class="weather">
+          <h5>Friday</h5>
+            <img
+              src="https://user-images.githubusercontent.com/25912510/212768995-05b0d82e-2dbe-4226-ab89-fdab4786f013.png"
+              alt="some clouds"
+              width="200"
+              height="200"
+              class="weather-image"
+            />
+          <p class="text-bold">Some clouds</p>
+          <div class="flex content-between mt-10">
+            <p class="text-red text-weather" id="temp-3">21°</p>
+            <p class="text-blue text-weather" id="temp-4">16°</p>
+          </div>
+        </div>
+        <div class="weather">
+          <h5>Saturday</h5>
+            <img
+              src="https://user-images.githubusercontent.com/25912510/212768999-fbef8a98-f013-40b0-ab6a-9037d08063b9.png"
+              alt="some sun"
+              width="200"
+              height="200"
+              class="weather-image"
+            />
+          <p class="text-bold">Some sun</p>
+          <div class="flex content-between mt-10">
+            <p class="text-red text-weather" id="temp-5">26°</p>
+            <p class="text-blue text-weather" id="temp-6">21°</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer" id="cookie">
+        <div class="cookie">
+          <img
+            src="https://user-images.githubusercontent.com/25912510/212768989-aaf4cc15-2dd3-41be-808a-4cde7d8c9db6.png"
+            alt="setting"
+            width="80"
+            height="80"
+          />
+          <div>
+            <h5> Stop! Cookie time</h5>
+            <p> We use cookies(sadly not the edible ones) to persinalize content and
+              ads, to provide social media features and to analyse our trafic.<a> Read more...</a></p>
+          </div>
+          <button onclick="removeCookie()">I accept</button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
